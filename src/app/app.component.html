@@ -1,0 +1,23 @@
+
+<div class="app-container">
+  <app-header></app-header>
+    <mat-drawer-container class="calcHeight" autosize>
+
+      <mat-drawer #drawer opened class="w-25" mode="side">
+        <app-search-form></app-search-form>
+      </mat-drawer>
+    
+      <div class="example-sidenav-content">
+        
+        <button type="button" mat-icon-button (click)="drawer.toggle()">
+          <mat-icon>arrow_back_ios</mat-icon>
+        </button>
+        
+        <app-list-item></app-list-item>
+
+      </div>
+    
+    </mat-drawer-container>
+  <app-footer></app-footer>
+</div>
+

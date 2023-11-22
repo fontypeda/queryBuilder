@@ -1,0 +1,29 @@
+.small-view {
+    zoom: 0.8;
+    height: calc(100% - 62px);
+    overflow: auto;
+    background-color: #f3f3f3;
+    padding: 0px 14px;
+}
+
+.search-view {
+    height: 50px;
+    /* background-color: aquamarine; */
+}
+
+.divider-container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.divider-text {
+  background: #fff; /* use the color of your page background here */
+  padding: 0 10px;
+  position: relative;
+  top: -12px; /* adjust this as needed */
+}
+
+.mat-divider {
+  border-top-width: 2px; /* make the divider a bit thicker for better visibility */
+}
